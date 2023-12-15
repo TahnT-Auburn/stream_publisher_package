@@ -1,0 +1,51 @@
+tri028s_cc:
+  stream_publisher:
+    ros__parameters:
+      serial: "223600392"
+      pixelformat: "rgb8"
+      width: 1280 #1936 #1440 #1920   
+      height: 720 #1464 #1080  #1080  
+      gain: 40.0
+      exposure_time: 4000.0 #-1.0
+      stream_auto_negotiate_packet_size: true
+      stream_packet_resend_enable: true
+      tigger_mode: false
+      topic: "stream"
+      qos_history: ""
+      qos_history_depth: 0
+      qos_reliability: "reliable"
+
+#tri028s_mc:
+  #stream_publisher:
+    #ros__parameters:
+      #serial: "223301667"
+      #pixelformat: "mono8"
+      #width: 1936 #1280 #1440 #1920   
+      #height: 1464 #720 #1080  #1080  
+      #gain: 20.0
+      #exposure_time: 4000.0 #-1.0
+      #stream_auto_negotiate_packet_size: true
+      #stream_packet_resend_enable: true
+      #tigger_mode: false
+      #topic: "stream"
+      #qos_history: ""
+      #qos_history_depth: 0
+      #qos_reliability: "reliable"
+
+#tri054s_mc:
+  #stream_publisher:
+    #ros__parameters:
+      #serial: "223302308"
+      #pixelformat: "mono8"
+      #width: 1936 #1280 #1440 #1920   
+      #height: 1464 #720 #1080  #1080  
+      #gain: 20.0
+      #exposure_time: 4000.0 #-1.0
+      #stream_auto_negotiate_packet_size: true
+      #stream_packet_resend_enable: true
+      #tigger_mode: false
+      #topic: "stream"
+      #qos_history: ""
+      #qos_history_depth: 0
+      #qos_reliability: "reliable"
+    
